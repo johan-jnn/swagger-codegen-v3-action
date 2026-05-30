@@ -1,9 +1,9 @@
 # action.yml
-name: 'Swagger Codegen'
-description: 'Run Swagger Codegen with Github Actions'
+name: 'Swagger Codegen v3'
+description: 'Run Swagger Codegen v3 with Github Actions'
 branding:
     icon: code
     color: green
 runs:
   using: 'docker'
-  image: 'docker://swaggerapi/swagger-codegen-cli'
+  image: 'docker://swaggerapi/swagger-codegen-cli-v3'
